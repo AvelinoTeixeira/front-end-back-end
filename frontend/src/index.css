@@ -1,0 +1,70 @@
+*{
+  overflow: hidden;
+  margin: auto;
+ justify-content: center;
+ 
+}
+
+.button{
+  
+  border-radius: 2px;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  padding: 10px 20px;
+  background-color: #007bff;
+}
+
+.container{
+  margin-top: 20px;
+  color: #fff;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  width: 420px;
+  background: linear-gradient(90deg, rgb(56, 56, 56) 0%, rgb(0, 0, 0) 81.25%);
+  border-radius: 10px;
+  padding: 30px 0px;
+}
+
+
+
+input{
+  padding: 7px ;
+}
+h2{
+  margin-bottom: 10px;
+  margin-top: 50px;
+}
+
+li{
+  margin-top: 10px;
+  list-style: none;
+  font-size: 17px;
+}
+
+.btnex{
+  cursor: pointer;
+  border-radius: 5px;
+  padding: 8px 15px;
+  border: none;
+  margin-left: 20px;
+}
+
+.inputbtn{
+  display: block;
+  gap: 10px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+@media screen and (max-width: 416px) {
+  .back {
+    max-width: 250px; /* Reduzir ainda mais a largura máxima para telas muito pequenas */
+    padding: 30px 10px; /* Ajustar o preenchimento para telas menores */
+  }
+
+  .button {
+    font-size: 14px; /* Reduzir o tamanho da fonte do botão para evitar que ele fique muito grande em telas pequenas */
+  }
+}
